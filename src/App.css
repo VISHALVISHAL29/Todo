@@ -1,0 +1,44 @@
+.child-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%; /* Adjusted for better spacing */
+  
+  
+}
+
+.button{
+margin: 10px;
+}
+
+.unorderedlist {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.unorderedlist li{
+  display: flex;
+  align-items: center;
+  padding: 10px; /* Add padding inside each li */
+  margin-bottom: 10px; /* Space between each list item */
+  border:1vw solid black; /* Border to visualize separation */
+  background-color: #696969; /* Optional: change background for better contrast */
+  width: auto; /* Ensure the width adjusts to content */
+
+}
+.sub-container{
+  display:flex;
+  justify-content: center;
+  margin-right: 10vw;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.todo-text {
+  flex-grow: 1; /* Take up remaining space between checkbox and delete icon */
+  margin-left: 10px; /* Space between checkbox and text */
+}
+
